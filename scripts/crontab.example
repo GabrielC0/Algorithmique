@@ -1,0 +1,11 @@
+# Réentraînement hebdomadaire du modèle de sentiment (Linux / macOS).
+#
+# Installation :
+#   1. Adapter le chemin du projet ci-dessous.
+#   2. crontab -e
+#   3. Coller la ligne ci-dessous (tous les lundis à 03h00).
+#
+# Le résultat est journalisé dans logs/retrain.log (via le script) et la
+# sortie brute dans logs/cron.log.
+
+0 3 * * 1 cd /chemin/vers/projet-final && ./venv/bin/python scripts/retrain.py >> logs/cron.log 2>&1
