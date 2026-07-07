@@ -1,0 +1,23 @@
+# Environnement Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Configuration locale (secrets)
+.env
+
+# Artefacts du modèle (régénérés par l'entraînement)
+models/*.joblib
+models/metrics.json
+
+# Logs
+logs/
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
