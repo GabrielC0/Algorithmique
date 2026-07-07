@@ -1,0 +1,449 @@
+text,positive,negative
+"J'adore ce nouveau téléphone, la batterie tient toute la journée !",1,0
+"Quelle magnifique journée, le soleil brille et je suis de bonne humeur",1,0
+"Ce restaurant est une pure merveille, les plats sont délicieux",1,0
+"Merci à toute l'équipe pour ce service exceptionnel, je recommande à 100%",1,0
+"Incroyable ce concert hier soir, la meilleure soirée de ma vie",1,0
+"Le film était génial, je le conseille à tout le monde",1,0
+"Super expérience avec ce vendeur, livraison rapide et produit conforme",1,0
+"Je suis tellement heureux d'avoir réussi mon examen !",1,0
+"Bravo à l'équipe pour cette victoire éclatante, quel match !",1,0
+"Cette application est vraiment bien pensée, simple et efficace",1,0
+"Excellente nouvelle, j'ai décroché le job de mes rêves",1,0
+"Le service client a été adorable et très réactif, merci !",1,0
+"Quel bonheur de retrouver mes amis après tout ce temps",1,0
+"La nouvelle mise à jour est top, tout fonctionne parfaitement",1,0
+"Ce livre m'a transporté, une lecture inoubliable",1,0
+"Franchement chapeau, le travail accompli est remarquable",1,0
+"Les paysages étaient à couper le souffle, vacances parfaites",1,0
+"Je recommande vivement cet hôtel, accueil chaleureux et chambres impeccables",1,0
+"Trop content de ma nouvelle voiture, elle roule à merveille",1,0
+"Cette série est addictive, j'ai adoré chaque épisode",1,0
+"Un grand merci au médecin qui m'a si bien pris en charge",1,0
+"La qualité est au rendez-vous, je suis pleinement satisfait",1,0
+"Quel plaisir de cuisiner avec des produits aussi frais",1,0
+"L'ambiance au bureau est géniale depuis l'arrivée de la nouvelle équipe",1,0
+"Enfin un opérateur qui tient ses promesses, réseau nickel partout",1,0
+"Ce gâteau au chocolat était une tuerie, bravo au pâtissier",1,0
+"Mon colis est arrivé en avance, emballage soigné, parfait !",1,0
+"Je me sens en pleine forme depuis que j'ai repris le sport",1,0
+"Superbe interface, intuitive et agréable à utiliser",1,0
+"Les enfants ont adoré le parc d'attractions, journée magique",1,0
+"Très bonne surprise ce petit café, le barista est un artiste",1,0
+"Félicitations pour ce projet, c'est du très beau travail",1,0
+"La connexion fibre est ultra rapide, je télécharge tout en quelques secondes",1,0
+"Ce prof explique tellement bien, ses cours sont passionnants",1,0
+"J'ai passé un week-end de rêve à la montagne",1,0
+"Le concert était grandiose, une performance inoubliable",1,0
+"Produit conforme à la description, rapport qualité prix imbattable",1,0
+"Quelle joie d'annoncer la naissance de notre petite fille !",1,0
+"Le nouveau stade est magnifique, l'ambiance était de folie",1,0
+"Merci pour votre professionnalisme, dossier traité en un temps record",1,0
+"Cette pizza est la meilleure que j'ai mangée de ma vie",1,0
+"Je suis fan de cette marque, jamais déçu en cinq ans",1,0
+"L'équipe a été au top du début à la fin, expérience parfaite",1,0
+"Mon nouveau PC est une bête de course, je suis ravi",1,0
+"Adorable petit hôtel, on reviendra c'est certain",1,0
+"Le spectacle était éblouissant, les artistes sont incroyables",1,0
+"Très satisfait de mon achat, je recommande sans hésiter",1,0
+"Enfin des transports à l'heure, ça fait plaisir ce matin",1,0
+"Ce jeu vidéo est un chef-d'œuvre, des heures de plaisir",1,0
+"La formation était passionnante, formateur pédagogue et à l'écoute",1,0
+"Bravo pour cette initiative écologique, c'est inspirant",1,0
+"Un accueil chaleureux et un personnel aux petits soins, merci !",1,0
+"Cette crème est miraculeuse, ma peau n'a jamais été aussi belle",1,0
+"Trop fière de mon frère qui vient d'obtenir son diplôme",1,0
+"Le brunch était copieux et délicieux, adresse à retenir",1,0
+"Quel talent ce chanteur, sa voix m'a donné des frissons",1,0
+"Réparation rapide et garagiste honnête, ça fait du bien",1,0
+"J'ai gagné au concours, je n'en reviens toujours pas !",1,0
+"Les soldes étaient incroyables, j'ai fait de super affaires",1,0
+"Ce documentaire est fascinant, à voir absolument",1,0
+"Ma commande est arrivée en 24h, service impeccable",1,0
+"Belle victoire de l'équipe de France ce soir, on a vibré !",1,0
+"Le coiffeur a fait des merveilles, j'adore ma nouvelle coupe",1,0
+"Quel régal ce couscous, les saveurs étaient parfaites",1,0
+"Je suis émerveillé par cette exposition, une claque artistique",1,0
+"Le SAV a remplacé mon appareil sans discuter, très pro",1,0
+"Première séance de yoga et déjà conquise, quel bien-être",1,0
+"Ce roman policier m'a tenu en haleine jusqu'au bout, excellent",1,0
+"L'anniversaire surprise était une réussite totale, merci à tous",1,0
+"Les nouvelles pistes cyclables sont super pratiques, bravo la mairie",1,0
+"Mon entretien s'est super bien passé, je croise les doigts !",1,0
+"Cette bande-annonce donne trop envie, vivement la sortie",1,0
+"Le camping était top, emplacements spacieux et sanitaires propres",1,0
+"Merci pour ce webinaire très instructif, j'ai appris plein de choses",1,0
+"La box internet installée en dix minutes, technicien au top",1,0
+"Ce fromage est divin, merci au producteur local",1,0
+"Très beau geste de solidarité des supporters, ça réchauffe le cœur",1,0
+"L'appli de méditation a changé mes nuits, je dors enfin bien",1,0
+"Excellente dégustation de vins, le sommelier était passionnant",1,0
+"Je valide totalement ce coiffeur, accueil parfait et prix doux",1,0
+"Quelle fierté de voir ma fille sur le podium !",1,0
+"Le marché de Noël était féérique cette année",1,0
+"Enfin reçu ma carte cadeau, merci pour la rapidité",1,0
+"Ce petit resto de quartier mérite ses cinq étoiles",1,0
+"L'odeur du pain frais le matin, le bonheur simple",1,0
+"Génial le nouveau musée interactif, les enfants ont appris en s'amusant",1,0
+"Opération réussie, merci à toute l'équipe médicale formidable",1,0
+"Mon jardin n'a jamais été aussi beau, merci pour les conseils",1,0
+"La compagnie aérienne a surclassé nos billets, voyage de rêve",1,0
+"Ce podcast est une pépite, chaque épisode est captivant",1,0
+"Bravo les bénévoles pour cette collecte record !",1,0
+"Le tuto était clair et précis, j'ai tout réparé moi-même",1,0
+"Superbe randonnée aujourd'hui, des panoramas magnifiques",1,0
+"L'imprimante fonctionne du premier coup, miracle de la technologie",1,0
+"Très heureuse de rejoindre cette entreprise, l'aventure commence !",1,0
+"Le glacier artisanal du port vaut vraiment le détour",1,0
+"Ma banque a résolu le problème en une heure, efficace",1,0
+"Ce stylo écrit divinement bien, petit plaisir du quotidien",1,0
+"L'émission d'hier soir était drôle et intelligente, du grand art",1,0
+"Après des mois d'efforts, objectif atteint : marathon terminé !",1,0
+"Les fleurs livrées étaient splendides, ma mère a adoré",1,0
+"Ce dentiste est doux et rassurant, fini la peur du fauteuil",1,0
+"La médiathèque rénovée est superbe, quel plaisir d'y étudier",1,0
+"Excellent rapport qualité prix pour ce vélo électrique",1,0
+"Je souris encore en repensant à ce spectacle d'improvisation",1,0
+"Quel bonheur ce premier jour de vacances au bord de la mer",1,0
+"La recette était facile à suivre et le résultat bluffant",1,0
+"Un grand cru ce match, nos joueurs ont été héroïques",1,0
+"Le chauffeur de bus a attendu la mamie, respect monsieur",1,0
+"Mon stage se passe à merveille, l'équipe est bienveillante",1,0
+"Cette lessive sent incroyablement bon, linge tout doux",1,0
+"Le feu d'artifice était grandiose, merci la ville !",1,0
+"Adopté il y a un mois, ce chaton illumine notre quotidien",1,0
+"Le remboursement a été effectué sous 48h, service sérieux",1,0
+"Quelle belle plume, cet article est un régal à lire",1,0
+"Les voisins ont organisé une fête de quartier géniale",1,0
+"Mon niveau d'anglais a explosé grâce à cette méthode",1,0
+"Ce parfum est envoûtant, je reçois des compliments toute la journée",1,0
+"Enfin propriétaires ! Un rêve qui devient réalité",1,0
+"La visite guidée était passionnante, guide au top",1,0
+"Petit-déjeuner au lit préparé par les enfants, moment parfait",1,0
+"Le coach est motivant sans être brutal, je progresse vite",1,0
+"Ce champagne était à la hauteur de l'événement, sublime",1,0
+"Réunion productive et bonne humeur au rendez-vous, belle journée de travail",1,0
+"Le mode sombre de l'application est enfin là, mes yeux disent merci",1,0
+"Très émue par ce discours, des mots justes et sincères",1,0
+"L'aspirateur robot a changé ma vie, maison impeccable sans effort",1,0
+"Bravo au chef pour ce menu végétarien créatif et savoureux",1,0
+"La piscine municipale rénovée est magnifique, on y retourne demain",1,0
+"Mon manuscrit a été accepté par un éditeur, je flotte sur un nuage",1,0
+"Ce fauteuil est d'un confort absolu, télétravail royal",1,0
+"Les fraises du marché étaient sucrées à souhait",1,0
+"Quel plaisir de conduire cette voiture, silencieuse et agréable",1,0
+"Le professeur de piano de ma fille est formidable, elle adore",1,0
+"Sortie scolaire réussie, les enfants sont revenus des étoiles plein les yeux",1,0
+"L'hôtesse d'accueil a été d'une gentillesse rare, merci",1,0
+"Je me régale avec ce nouveau jeu de société, fous rires garantis",1,0
+"Magnifique coucher de soleil ce soir, la nature est belle",1,0
+"Cette mutuelle rembourse vite et bien, enfin la tranquillité",1,0
+"Le concert acoustique intimiste était d'une beauté rare",1,0
+"Trop bien la nouvelle boulangerie, leurs croissants sont parfaits",1,0
+"Succès total pour le lancement du produit, l'équipe peut être fière",1,0
+"Ce masseur a des mains en or, je suis détendu comme jamais",1,0
+"La lecture du soir avec les enfants, mon moment préféré de la journée",1,0
+"Verdict du contrôle technique : rien à signaler, que du bonheur",1,0
+"L'association a trouvé une famille à tous les chiots, quelle joie",1,0
+"Mon premier potager donne ses premières tomates, fierté immense",1,0
+"Le vol était à l'heure et le personnel charmant, voyage parfait",1,0
+"Cette chanson me met de bonne humeur dès le réveil",1,0
+"Quel service exceptionnel dans cette librairie, conseils en or",1,0
+"Je suis très déçu par ce produit, il est tombé en panne au bout de deux jours",0,1
+"Service client catastrophique, personne ne répond depuis une semaine",0,1
+"Ce restaurant était infect, plats froids et serveur désagréable",0,1
+"Quelle arnaque ce site, j'ai payé et jamais rien reçu",0,1
+"Le film était d'un ennui mortel, j'ai quitté la salle avant la fin",0,1
+"Ma commande est arrivée cassée, emballage bâclé, inadmissible",0,1
+"Encore une grève, je suis bloqué au travail, ras-le-bol",0,1
+"Cette application plante toutes les cinq minutes, c'est insupportable",0,1
+"Pire hôtel de ma vie, chambre sale et bruit toute la nuit",0,1
+"Je suis furieux, mon vol a été annulé sans aucune explication",0,1
+"La mise à jour a tout cassé, plus rien ne fonctionne",0,1
+"Déçu par ce concert, le son était horrible et le chanteur faux",0,1
+"On m'a menti sur les caractéristiques du produit, honteux",0,1
+"Le trajet a duré quatre heures au lieu d'une, quelle galère",0,1
+"Ce vendeur est malhonnête, fuyez cette boutique",0,1
+"Ma banque m'a prélevé des frais injustifiés, scandaleux",0,1
+"Le SAV refuse de prendre en charge la réparation, lamentable",0,1
+"Nourriture immonde à la cantine aujourd'hui, immangeable",0,1
+"Je regrette cet achat, qualité médiocre pour un prix exorbitant",0,1
+"L'attente aux urgences a été interminable, six heures debout",0,1
+"Ce jeu est truffé de bugs, injouable en l'état",0,1
+"Quelle déception ce dernier épisode, fin bâclée et incohérente",0,1
+"Le colis est perdu et personne ne veut me rembourser",0,1
+"Internet en panne depuis trois jours, opérateur aux abonnés absents",0,1
+"Trahi par mon meilleur ami, je suis dégoûté",0,1
+"La réunion a encore été annulée à la dernière minute, aucun respect",0,1
+"Ce téléphone chauffe et la batterie se vide en deux heures, nul",0,1
+"Hôtel bruyant, personnel hautain, petit-déjeuner hors de prix : à fuir",0,1
+"Je n'ai jamais vu un garage aussi incompétent, ma voiture est pire qu'avant",0,1
+"Les prix ont encore augmenté, faire ses courses devient impossible",0,1
+"Examen raté à cause d'un sujet hors programme, écœuré",0,1
+"Ce coiffeur a massacré mes cheveux, je n'ose plus sortir",0,1
+"Livraison en retard de deux semaines et aucune excuse, minable",0,1
+"L'ambiance au bureau est devenue toxique, je n'en peux plus",0,1
+"Ce médicament m'a donné des effets secondaires horribles",0,1
+"Match catastrophique, l'équipe a joué sans envie ni fierté",0,1
+"La climatisation est en panne en pleine canicule, cauchemar",0,1
+"Site web impossible à utiliser, boutons qui ne marchent pas, erreurs partout",0,1
+"Mon propriétaire refuse de faire les réparations, c'est indigne",0,1
+"Encore un scandale de pollution, cette entreprise détruit tout",0,1
+"Le spectacle a été annulé après deux heures d'attente sous la pluie",0,1
+"Ce professeur humilie les élèves, comportement inacceptable",0,1
+"Ma voiture neuve est déjà au garage, très déçu de cette marque",0,1
+"Le wifi de l'hôtel ne fonctionne pas, impossible de travailler",0,1
+"Frais cachés découverts à la caisse, pratique commerciale honteuse",0,1
+"Cette imprimante est une catastrophe, bourrage papier permanent",0,1
+"Je suis épuisé, encore une nuit blanche à cause des voisins",0,1
+"L'administration a perdu mon dossier pour la troisième fois",0,1
+"Restaurant hors de prix pour des portions minuscules, plus jamais",0,1
+"Le train est encore supprimé, comment aller travailler maintenant ?",0,1
+"Produit contrefait reçu au lieu de l'original, vendeur escroc",0,1
+"La piscine était fermée sans préavis, enfants en larmes",0,1
+"Mon abonnement a été renouvelé sans mon accord, prélèvement forcé",0,1
+"Ce canapé s'est affaissé en un mois, qualité déplorable",0,1
+"Réponse méprisante du support technique, je résilie tout",0,1
+"Les travaux dans la rue durent depuis six mois, bruit infernal",0,1
+"J'ai attrapé une intoxication alimentaire dans ce restaurant",0,1
+"Le recruteur ne m'a jamais recontacté après trois entretiens, aucun savoir-vivre",0,1
+"Cette lessive a décoloré tous mes vêtements, désastre",0,1
+"Ordinateur livré avec un écran fissuré, contrôle qualité inexistant",0,1
+"La billetterie a planté et les places sont parties, rageant",0,1
+"Mon chat est malade et le vétérinaire est injoignable, angoisse totale",0,1
+"Ce roman est plat et prévisible, je me suis forcé à le finir",0,1
+"Augmentation de loyer abusive, je vais devoir déménager",0,1
+"L'ascenseur est en panne depuis un mois, sixième étage à pied",0,1
+"Séance de cinéma gâchée par des gens bruyants et irrespectueux",0,1
+"La garantie ne couvre évidemment pas la panne, comme par hasard",0,1
+"Chantier bâclé, fuites partout, l'artisan ne répond plus",0,1
+"Je me suis fait voler mon vélo devant la gare, dégoûté",0,1
+"Cette compagnie a perdu ma valise et refuse toute indemnisation",0,1
+"Le nouveau management nous met une pression insoutenable",0,1
+"Aliment périmé vendu en rayon, hygiène douteuse dans ce magasin",0,1
+"Ma connexion coupe toutes les dix minutes, télétravail impossible",0,1
+"Le concert a commencé avec deux heures de retard, aucun respect du public",0,1
+"Ces chaussures m'ont détruit les pieds, qualité inexistante",0,1
+"Le taxi m'a fait faire un détour pour gonfler la note, escroquerie",0,1
+"Deux mois d'attente pour un rendez-vous médical, système à bout de souffle",0,1
+"La mairie a encore ignoré nos plaintes sur la sécurité du quartier",0,1
+"Ce sèche-cheveux a pris feu à la première utilisation, dangereux",0,1
+"Humiliation publique en réunion, je pense à démissionner",0,1
+"Les toilettes du festival étaient immondes, organisation déplorable",0,1
+"Mon assurance refuse de couvrir le dégât des eaux, clauses piégeuses",0,1
+"Ce tutoriel est faux du début à la fin, j'ai tout cassé en le suivant",0,1
+"Le réfrigérateur neuf fait un bruit d'avion, retour immédiat",0,1
+"Une heure au téléphone pour être raccroché au nez, service client odieux",0,1
+"Les places de parking ont triplé de prix, racket organisé",0,1
+"Mon stage se résume à faire des photocopies, grosse désillusion",0,1
+"La viande était avariée, soirée barbecue gâchée",0,1
+"Ce VPN ralentit tout et ne protège rien, argent jeté par les fenêtres",0,1
+"Facture d'électricité astronomique, je ne comprends plus rien",0,1
+"L'application a supprimé toutes mes photos, des années de souvenirs perdues",0,1
+"Le déménageur a rayé tous mes meubles, amateurisme total",0,1
+"Aucune rampe d'accès dans cette gare, honteux pour les personnes à mobilité réduite",0,1
+"La box tv se fige tous les soirs à 20h, insupportable",0,1
+"Ce dentifrice m'a irrité les gencives, composition douteuse",0,1
+"On a annulé mon rendez-vous à la préfecture après trois mois d'attente",0,1
+"Les soldes étaient une vaste blague, prix gonflés avant réduction",0,1
+"Mon voisin fait la fête tous les soirs, la police ne fait rien",0,1
+"Ce drone s'est écrasé au premier vol, notice incompréhensible",0,1
+"La salle de sport est bondée et les machines toujours en panne",0,1
+"Retard de paiement de salaire pour le deuxième mois consécutif, inacceptable",0,1
+"Ce correcteur orthographique ajoute des fautes, un comble",0,1
+"L'agence immobilière m'a fait visiter un taudis hors de prix",0,1
+"Les frais de dossier cachés ont doublé la facture finale",0,1
+"Ma carte bancaire a été piratée après un achat sur ce site",0,1
+"Le chauffage est tombé en panne en plein hiver, on gèle",0,1
+"Cette conférence était creuse, du vent et des slides illisibles",0,1
+"Le poissonnier m'a vendu du poisson pas frais, odeur atroce",0,1
+"Trois heures de bouchons pour dix kilomètres, enfer quotidien",0,1
+"La maternité a égaré mon dossier de suivi, stress énorme",0,1
+"Ce candidat a encore menti pendant le débat, pitoyable",0,1
+"Le distributeur a avalé ma carte un dimanche soir, aucune assistance",0,1
+"Mes plants de tomates sont morts avec ce terreau bas de gamme",0,1
+"La visioconférence a coupé pendant ma présentation, humiliant",0,1
+"Ce chargeur a grillé la batterie de mon téléphone, colère noire",0,1
+"Encore une hausse des tarifs de cantine, les familles trinquent",0,1
+"Le pressing a rétréci mon costume de mariage, catastrophe",0,1
+"Aucun contrôleur pour faire respecter le calme dans ce train, voyage infernal",0,1
+"Cette crème solaire m'a laissé des brûlures, produit à retirer de la vente",0,1
+"Je viens de prendre le bus pour aller au centre-ville",0,0
+"Le magasin ouvre à neuf heures demain matin",0,0
+"Il y a une nouvelle boulangerie dans la rue principale",0,0
+"La réunion est prévue jeudi à quatorze heures",0,0
+"Je regarde un documentaire sur les océans ce soir",0,0
+"Le train partira du quai numéro trois",0,0
+"Ils annoncent de la pluie pour ce week-end",0,0
+"Mon frère habite à Lyon depuis deux ans",0,0
+"Le colis devrait arriver entre lundi et mercredi",0,0
+"La bibliothèque ferme à dix-huit heures le samedi",0,0
+"Nouveau menu disponible à partir de la semaine prochaine",0,0
+"Je dois passer à la pharmacie avant de rentrer",0,0
+"Le match sera diffusé sur la chaîne publique",0,0
+"L'université organise une journée portes ouvertes en mars",0,0
+"Il reste trois places pour la séance de vingt heures",0,0
+"Le musée est ouvert du mardi au dimanche",0,0
+"J'ai rendez-vous chez le dentiste vendredi",0,0
+"La mise à jour sera déployée dans la nuit",0,0
+"Les inscriptions débutent le premier septembre",0,0
+"Ce modèle existe en trois coloris différents",0,0
+"Le marché a lieu tous les mercredis matin",0,0
+"Ils construisent un nouvel immeuble près de la gare",0,0
+"La conférence durera environ une heure trente",0,0
+"Je cherche une recette de quiche aux poireaux",0,0
+"Le magasin propose un service de retrait en magasin",0,0
+"Les bureaux seront fermés le lundi de Pâques",0,0
+"Mon téléphone affiche une notification de mise à jour",0,0
+"La ligne 4 est remplacée par des bus ce week-end",0,0
+"Le prix du billet inclut une boisson",0,0
+"Elle termine ses études d'architecture cette année",0,0
+"Le facteur passe généralement vers onze heures",0,0
+"La piscine propose des créneaux réservés aux adultes",0,0
+"Je viens de commencer un nouveau livre de science-fiction",0,0
+"Les résultats seront publiés sur le site officiel",0,0
+"Il faut prévoir une pièce d'identité pour l'inscription",0,0
+"Le restaurant propose une formule déjeuner en semaine",0,0
+"La météo annonce dix-neuf degrés pour demain",0,0
+"Je passe récupérer les clés en fin d'après-midi",0,0
+"L'application demande une connexion internet pour fonctionner",0,0
+"Le parking se trouve derrière le bâtiment principal",0,0
+"Ils diffusent la cérémonie en direct sur internet",0,0
+"Mon contrat se termine à la fin du mois",0,0
+"Le vol est prévu à sept heures quarante-cinq",0,0
+"Cette rue devient piétonne le dimanche",0,0
+"Le boulanger change ses horaires en août",0,0
+"J'attends la réponse de l'agence avant de décider",0,0
+"Le tutoriel montre comment installer le logiciel",0,0
+"Les températures baissent à partir de jeudi",0,0
+"La boutique en ligne livre aussi en Belgique",0,0
+"Il y avait du monde sur la route ce matin",0,0
+"Le document doit être signé avant vendredi",0,0
+"Elle prend le métro pour aller travailler",0,0
+"Le nouveau modèle sort le mois prochain",0,0
+"Je note le rendez-vous dans mon agenda",0,0
+"Le supermarché a déplacé le rayon surgelés",0,0
+"La formation se déroule en visioconférence",0,0
+"Un nouveau feu tricolore a été installé au carrefour",0,0
+"Les horaires d'été commencent la semaine prochaine",0,0
+"Je mets la lessive en route avant de partir",0,0
+"Le chantier devrait durer jusqu'en novembre",0,0
+"La facture est disponible dans l'espace client",0,0
+"Ils comptent repeindre la façade au printemps",0,0
+"Ce train dessert toutes les gares jusqu'à Marseille",0,0
+"La recette demande deux cents grammes de farine",0,0
+"Mon ordinateur redémarre pour installer les mises à jour",0,0
+"Le cours de sport est déplacé en salle B",0,0
+"Ils ont changé le sens de circulation dans le quartier",0,0
+"Le journal paraît désormais uniquement en ligne",0,0
+"J'ai déposé le dossier à l'accueil ce matin",0,0
+"La séance photo est reportée à une date ultérieure",0,0
+"Il reste du café dans la machine",0,0
+"L'arrêt de bus a été déplacé de cinquante mètres",0,0
+"Je récupère les enfants à la sortie de l'école",0,0
+"Le site sera en maintenance dimanche matin",0,0
+"La commande est en cours de préparation",0,0
+"Ils testent un nouveau système de réservation",0,0
+"Le vétérinaire consulte sur rendez-vous uniquement",0,0
+"Une déviation est mise en place avenue de la République",0,0
+"Le forfait inclut cent gigas de données mobiles",0,0
+"Les catalogues sont disponibles à l'entrée du magasin",0,0
+"Je change les piles de la télécommande",0,0
+"La réunion parents-professeurs aura lieu mardi soir",0,0
+"Le magasin propose la location de matériel de ski",0,0
+"Ils annoncent l'ouverture d'une nouvelle ligne de tramway",0,0
+"Le règlement s'effectue en trois fois sans frais",0,0
+"La salle d'attente se trouve au premier étage",0,0
+"Mon abonnement se renouvelle automatiquement chaque mois",0,0
+"Le pain de mie se conserve une semaine après ouverture",0,0
+"Ils organisent une braderie le premier dimanche du mois",0,0
+"L'autoroute est payante à partir de cette sortie",0,0
+"Je vérifie les horaires de la déchetterie",0,0
+"Le film dure deux heures et douze minutes",0,0
+"La billetterie ouvre une heure avant le spectacle",0,0
+"Ils remplacent les compteurs d'eau dans l'immeuble",0,0
+"Une averse est passée sur la ville en fin de journée",0,0
+"Le questionnaire prend environ cinq minutes",0,0
+"Les serviettes sont rangées dans le placard du haut",0,0
+"Ce quartier compte trois écoles primaires",0,0
+"La pharmacie de garde est indiquée sur la porte",0,0
+"Le loyer est payable au premier de chaque mois",0,0
+"J'ai croisé le facteur en bas de l'immeuble",0,0
+"C'est vraiment génial, encore une panne de métro un lundi matin",0,1
+"Bravo, trois semaines pour répondre à un mail, quelle efficacité",0,1
+"Merci la météo, un barbecue sous la grêle c'était parfait",0,1
+"Formidable, mon imprimante refuse d'imprimer le jour de ma soutenance",0,1
+"Super la promo : deux euros de réduction sur un produit augmenté de cinq",0,1
+"Magnifique, le seul jour de congé et la fibre tombe en panne",0,1
+"Quelle chance, mon train est à l'heure mais sur un quai fermé",0,1
+"Extraordinaire ce service : payer plus cher pour attendre plus longtemps",0,1
+"Le produit n'est pas mauvais mais je ne le rachèterai pas",0,1
+"Bof, le film se laisse regarder sans plus",0,1
+"C'était correct sans être exceptionnel, prix un peu élevé",0,1
+"Mouais, la mise à jour n'apporte pas grand-chose au final",0,1
+"Pas terrible ce sandwich, le pain manquait de fraîcheur",0,1
+"Déçu du dessert, le reste du repas était pourtant très bon",1,1
+"Le début du concert était raté mais la fin incroyable",1,1
+"Hôtel magnifique mais service désastreux, sentiment mitigé",1,1
+"J'adore le design mais la batterie est vraiment décevante",1,1
+"Excellente intrigue, dommage que la fin soit bâclée",1,1
+"Personnel adorable malgré une organisation chaotique",1,1
+"Superbe voiture mais consommation catastrophique",1,1
+"Trop hâte d'être en vacances la semaine prochaine !",1,0
+"On a ri toute la soirée, merci les copains",1,0
+"Petite victoire du jour : j'ai enfin fini ce rapport",1,0
+"Ce thé de Noël sent tellement bon, cocooning parfait",1,0
+"Objectif du mois atteint, l'équipe assure grave",1,0
+"Il m'a souri dans le métro, journée illuminée",1,0
+"Mes semis ont germé, le printemps arrive enfin",1,0
+"Première paie, ça fait quelque chose quand même !",1,0
+"Le kiné m'a réparé le dos, je revis littéralement",1,0
+"Ma grand-mère a appris à faire des visios, trop mignonne",1,0
+"Marre de cette pluie qui ne s'arrête jamais",0,1
+"J'en peux plus de ces réunions qui ne servent à rien",0,1
+"Pourquoi les gens ne disent plus bonjour, ça me déprime",0,1
+"Troisième rhume de l'hiver, mon corps me lâche",0,1
+"Les moustiques m'ont dévoré cette nuit, zéro sommeil",0,1
+"Mon équipe a encore perdu, saison à oublier",0,1
+"Panne de réveil, retard au boulot, café renversé : lundi quoi",0,1
+"Batterie à 1% et pas de chargeur, évidemment",0,1
+"Les impôts ont encore trouvé un truc à me réclamer",0,1
+"Je déteste faire les magasins le samedi, foule insupportable",0,1
+"gg l'équipe pour la win de ce soir, match de fou",1,0
+"trop bon ce kebab franchement je valide à fond",1,0
+"jsuis trop content mon pote revient vivre à Paris !!",1,0
+"la prof a annulé le partiel de demain LA MEILLEURE",1,0
+"nouveau high score sur le jeu, jsuis une machine mdr",1,0
+"ce site est une dinguerie les prix sont cassés",1,0
+"franchement le nouvel album est une masterclass totale",1,0
+"grosse dédicace au chauffeur qui m'a attendu, un roi",1,0
+"jpp de ce prof qui donne des devoirs le vendredi soir",0,1
+"cette appli est une catastrophe elle bouffe toute ma batterie",0,1
+"scandale le resto a supprimé le meilleur burger de la carte",0,1
+"deux heures de queue pour rien, jsuis vénère",0,1
+"mon tel est mort juste après la fin de la garantie, comme par hasard",0,1
+"la wifi de la fac est encore morte, comment on bosse nous",0,1
+"le serveur du jeu est down le seul soir où jsuis dispo, abusé",0,1
+"rip mon week-end, je bosse samedi ET dimanche",0,1
+"Ce produit fait exactement ce qu'on attend de lui, rien à redire",1,0
+"Aucun regret sur cet achat, il tient ses promesses depuis un an",1,0
+"Je ne pensais pas aimer autant ce spectacle, agréablement surpris",1,0
+"Contre toute attente, la suite est encore meilleure que l'original",1,0
+"Même ma mère qui déteste la technologie a adoré cette tablette",1,0
+"Impossible de trouver mieux à ce prix, foncez les yeux fermés",1,0
+"Non seulement c'est beau, mais en plus c'est solide",1,0
+"Je ne recommande pas du tout ce garage, allez voir ailleurs",0,1
+"N'achetez surtout pas cette marque, vous allez le regretter",0,1
+"Ce n'est pas du tout à la hauteur du prix demandé",0,1
+"Je ne reviendrai jamais dans cet établissement, c'est certain",0,1
+"Rien ne va dans cette application, ni le design ni les performances",0,1
+"Il n'y a pas grand-chose à sauver dans ce film honnêtement",0,1
+"Ne perdez pas votre temps avec ce livre, intrigue inexistante",0,1
+"Ce n'est pas encore parfait mais les progrès sont impressionnants",1,0
+"Je n'aurais jamais cru dire ça, mais ce brocoli était délicieux",1,0
+"Pas déçu du voyage, cette exposition vaut vraiment le détour",1,0
+"On ne peut pas faire plus simple et efficace, bravo",1,0
+"Il n'y a rien de mieux qu'un bon bain chaud après le sport",1,0
+"Je n'arrive même pas à être en colère, juste très triste de ce gâchis",0,1
+"Il ne reste plus rien de la qualité d'antan, quelle tristesse",0,1
+"On ne m'y reprendra plus, première et dernière commande ici",0,1
