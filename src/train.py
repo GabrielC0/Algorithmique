@@ -88,6 +88,10 @@ def train_and_evaluate() -> dict:
         "dataset_size": len(texts),
         "train_size": len(idx_train),
         "validation_size": len(idx_val),
+        "thresholds": {
+            "positive": model.threshold_positive,
+            "negative": model.threshold_negative,
+        },
         "positive": evaluate_label([y_pos[i] for i in idx_val], pred_pos),
         "negative": evaluate_label([y_neg[i] for i in idx_val], pred_neg),
     }

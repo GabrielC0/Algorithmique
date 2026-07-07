@@ -7,13 +7,24 @@ TF-IDF :
 
 Le score de sentiment d'un tweet est : P(positif) - P(négatif), borné
 naturellement dans [-1, 1] (-1 très négatif, 1 très positif).
+
+Les labels binaires (predict_labels) utilisent un seuil de décision propre à
+chaque classifieur, calibré par validation croisée sur le jeu d'entraînement
+(maximisation du F1-score de la classe 1) : cela compense le déséquilibre des
+classes et améliore le rappel des classes minoritaires par rapport au seuil
+fixe de 0.5.
 """
 
 from pathlib import Path
 
 import joblib
+import numpy as np
+from sklearn.base import clone
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import f1_score
+from sklearn.model_selection import StratifiedKFold, cross_val_predict
+from sklearn.pipeline import make_pipeline
 
 MODEL_DIR = Path(__file__).resolve().parent.parent / "models"
 MODEL_FILE = MODEL_DIR / "sentiment_model.joblib"
@@ -40,9 +51,25 @@ class SentimentModel:
         self.clf_negative = LogisticRegression(
             max_iter=2000, C=5.0, class_weight="balanced"
         )
+        # Seuils de décision des labels, calibrés pendant fit().
+        self.threshold_positive = 0.5
+        self.threshold_negative = 0.5
+
+    def _calibrate_threshold(self, texts, y) -> float:
+        """Choisit le seuil maximisant le F1 de la classe 1, par validation
+        croisée sur le jeu d'entraînement (probabilités out-of-fold, donc sans
+        fuite vers le jeu de validation)."""
+        pipeline = make_pipeline(clone(self.vectorizer), clone(self.clf_positive))
+        cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+        proba = cross_val_predict(pipeline, texts, y, cv=cv, method="predict_proba")[:, 1]
+        thresholds = np.arange(0.30, 0.66, 0.01)
+        scores = [f1_score(y, (proba >= t).astype(int)) for t in thresholds]
+        return float(thresholds[int(np.argmax(scores))])
 
     def fit(self, texts, y_positive, y_negative):
-        """Entraîne les deux classifieurs sur les tweets annotés."""
+        """Entraîne les deux classifieurs et calibre leurs seuils de décision."""
+        self.threshold_positive = self._calibrate_threshold(texts, y_positive)
+        self.threshold_negative = self._calibrate_threshold(texts, y_negative)
         X = self.vectorizer.fit_transform(texts)
         self.clf_positive.fit(X, y_positive)
         self.clf_negative.fit(X, y_negative)
@@ -56,9 +83,12 @@ class SentimentModel:
         return (proba_pos - proba_neg).tolist()
 
     def predict_labels(self, texts):
-        """Retourne les labels binaires prédits (positive, negative) par texte."""
+        """Retourne les labels binaires prédits (positive, negative) par texte,
+        en appliquant les seuils de décision calibrés."""
         X = self.vectorizer.transform(texts)
-        return self.clf_positive.predict(X), self.clf_negative.predict(X)
+        pred_pos = (self.clf_positive.predict_proba(X)[:, 1] >= self.threshold_positive).astype(int)
+        pred_neg = (self.clf_negative.predict_proba(X)[:, 1] >= self.threshold_negative).astype(int)
+        return pred_pos, pred_neg
 
     def save(self, path: Path = MODEL_FILE) -> Path:
         """Sauvegarde le modèle entraîné sur disque (joblib)."""

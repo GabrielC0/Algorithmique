@@ -240,7 +240,12 @@ croisée) :
 - le second prédit le label **`negative`**.
 
 Le score renvoyé par l'API est `P(positif) − P(négatif)`, naturellement borné
-dans `[-1, 1]`. Cette architecture à deux labels indépendants permet de gérer
+dans `[-1, 1]`. Le seuil de décision de chaque classifieur (labels binaires du
+rapport d'évaluation) est calibré à l'entraînement par validation croisée
+(maximisation du F1-score de la classe 1), ce qui compense le déséquilibre des
+classes et améliore le rappel des tweets polarisés.
+
+Cette architecture à deux labels indépendants permet de gérer
 les tweets neutres (`positive=0, negative=0`) comme les tweets mitigés
 (`positive=1, negative=1`), et de produire les deux matrices de confusion du
 rapport d'évaluation.

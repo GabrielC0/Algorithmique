@@ -197,7 +197,17 @@ def build_pdf(metrics: dict) -> None:
         "frappe. Un premier classifieur prédit le label "
         "« positive », un second le label « negative » ; le score de sentiment "
         "renvoyé par l'API est la différence P(positif) - P(négatif), comprise "
-        "entre -1 (très négatif) et 1 (très positif)."
+        "entre -1 (très négatif) et 1 (très positif). Le seuil de décision de "
+        "chaque classifieur est calibré par validation croisée sur le jeu "
+        "d'entraînement (maximisation du F1-score de la classe 1"
+        + (
+            f" ; seuils retenus : {metrics['thresholds']['positive']:.2f} pour "
+            f"« positive », {metrics['thresholds']['negative']:.2f} pour "
+            "« negative »)"
+            if "thresholds" in metrics
+            else ")"
+        )
+        + ", afin de compenser le déséquilibre des classes."
     )
     pdf.body(
         f"Le dataset compte {metrics['dataset_size']} tweets annotés, séparés en "
@@ -264,13 +274,15 @@ def build_pdf(metrics: dict) -> None:
         "Tweets mitigés (positifs ET négatifs, ex. « hôtel magnifique mais "
         "service désastreux ») : les deux classifieurs peuvent s'activer "
         "simultanément et le score proche de 0 masque la double polarité.",
-        "Biais de vocabulaire : le dataset (~400 tweets) reste petit ; un mot "
+        f"Biais de vocabulaire : le dataset ({metrics['dataset_size']} tweets) reste petit ; un mot "
         "absent de l'entraînement (argot, faute d'orthographe, emoji) est "
         "ignoré par le TF-IDF, ce qui pousse la prédiction vers la classe "
         "majoritaire (neutre).",
         "Déséquilibre de classes : environ un tiers seulement des tweets porte "
-        "chaque label ; le rappel de la classe 1 en pâtit mécaniquement par "
-        "rapport à la classe 0.",
+        "chaque label. La calibration des seuils de décision relève le rappel "
+        "de la classe 1, mais au prix d'une précision moindre : le modèle "
+        "détecte davantage de tweets polarisés en acceptant plus de fausses "
+        "alertes.",
     ):
         pdf.bullet(point)
     pdf.ln(2)
@@ -289,11 +301,13 @@ def build_pdf(metrics: dict) -> None:
         "Passer à des représentations contextuelles : un modèle de type "
         "CamemBERT (fine-tuné ou utilisé comme encodeur devant la régression "
         "logistique) capture ironie et contexte bien mieux que le TF-IDF.",
-        "Calibrer les seuils de décision : le rééquilibrage des classes "
-        "(class_weight='balanced') est déjà en place ; l'étape suivante est "
-        "d'ajuster les seuils par classe (courbes précision/rappel) et de "
-        "généraliser l'évaluation par validation croisée plutôt que par un "
-        "unique split.",
+        "Affiner la calibration : le rééquilibrage des classes "
+        "(class_weight='balanced') et les seuils de décision par classe "
+        "(calibrés par validation croisée, maximisation du F1) sont en place ; "
+        "l'étape suivante est de choisir le compromis précision/rappel selon "
+        "le besoin métier (courbes précision/rappel) et de généraliser "
+        "l'évaluation finale par validation croisée plutôt que par un unique "
+        "split.",
         "Suivre les performances dans le temps : historiser les métriques à "
         "chaque réentraînement hebdomadaire pour détecter toute dérive du "
         "modèle ou du vocabulaire des tweets.",
