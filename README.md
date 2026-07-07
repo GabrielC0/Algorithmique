@@ -148,6 +148,10 @@ par tweet :
 }
 ```
 
+> Les clés d'un objet JSON étant uniques, les tweets envoyés en double
+> n'apparaissent qu'une fois dans la réponse (le score d'un texte identique
+> est identique).
+
 ### Gestion des erreurs
 
 | Cas | Code | Réponse |

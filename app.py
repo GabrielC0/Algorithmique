@@ -82,8 +82,11 @@ def analyze():
             "Modèle non entraîné. Lancez d'abord : python -m src.train", 503
         )
 
-    scores = model.predict_scores(payload)
-    return jsonify({tweet: round(score, 3) for tweet, score in zip(payload, scores)})
+    # Les clés d'un objet JSON étant uniques, les tweets en double sont
+    # dédupliqués (un même texte donne de toute façon le même score).
+    tweets = list(dict.fromkeys(payload))
+    scores = model.predict_scores(tweets)
+    return jsonify({tweet: round(score, 3) for tweet, score in zip(tweets, scores)})
 
 
 @app.get("/health")

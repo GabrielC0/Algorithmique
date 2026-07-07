@@ -79,6 +79,15 @@ def interpretation(label: str, m: dict) -> str:
     (vn, fp), (fn, vp) = m["confusion_matrix"]
     cls = m["classes"]["1"]
     total = vn + fp + fn + vp
+    # Formulation de la fiabilité indexée sur la valeur réelle de précision,
+    # pour que le texte ne contredise jamais le chiffre.
+    precision = cls["precision"]
+    if precision >= 0.85:
+        fiabilite = "il se trompe rarement"
+    elif precision > 0:
+        fiabilite = f"environ une prédiction sur {round(1 / (1 - precision))} est erronée"
+    else:
+        fiabilite = "aucune prédiction de ce label n'est correcte"
     return (
         f"Sur les {total} tweets du jeu de validation, le modèle identifie "
         f"correctement {vp} tweets {label}s (vrais positifs) et {vn} tweets "
@@ -86,8 +95,8 @@ def interpretation(label: str, m: dict) -> str:
         f"{m['accuracy']:.1%}. Il commet {fp} faux positifs (tweets classés "
         f"« {label} » à tort) et {fn} faux négatifs (tweets « {label} » "
         f"manqués). La précision de la classe {label} est de "
-        f"{cls['precision']:.1%} : lorsque le modèle prédit ce label, il se "
-        f"trompe rarement. Son rappel de {cls['recall']:.1%} indique la part "
+        f"{cls['precision']:.1%} : lorsque le modèle prédit ce label, "
+        f"{fiabilite}. Son rappel de {cls['recall']:.1%} indique la part "
         f"des tweets réellement {label}s qu'il parvient à retrouver ; le "
         f"F1-score de {cls['f1_score']:.1%} synthétise cet équilibre."
     )
